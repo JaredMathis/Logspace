@@ -9,3 +9,9 @@ js_assert(js_string_is)(path);
 path = `./../${path}.mjs`
 
 let imported = await import(path);
+
+let args = process.argv.slice(3);
+
+let result = await imported.default(...args);
+
+console.log({result})

@@ -1,4 +1,5 @@
 import js_range from '../../js/range.mjs'
+import js_list_for_each from '../../js/list/for_each.mjs'
 export default function graph_new_complete(vertex_count) {
     let vertices = js_range(vertex_count);
     let result = [];

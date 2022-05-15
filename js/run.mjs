@@ -6,4 +6,6 @@ console.log({path});
 
 js_assert(js_string_is)(path);
 
+path = `./../${path}.mjs`
+
 let imported = await import(path);

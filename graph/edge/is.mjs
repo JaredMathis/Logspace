@@ -1,4 +1,4 @@
 
-export default function graph_edge_is() {
-    
+export default function graph_edge_is(edge) {
+
 }

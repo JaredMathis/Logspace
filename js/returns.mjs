@@ -1,3 +1,5 @@
+import js_equals from './equals.mjs'
+
 export default function js_returns(_function, expected_value) {
     return function js_assert_inner() {
         let actual_value = _function(...arguments);

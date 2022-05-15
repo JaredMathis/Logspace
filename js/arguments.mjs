@@ -1,4 +1,6 @@
 
 export default function js_arguments(_arguments) {
-    return
+    return function js_arguments_inner() {
+
+    };
 }

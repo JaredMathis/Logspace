@@ -1,4 +1,4 @@
 
-export default function graph_new() {
-
+export default function graph_new(edges) {
+    
 }
